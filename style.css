@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+p{
+    color: #6981e4;
+    font-family: roboto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #6981e4;
+}
+.site-icon{
+    font-family: roboto;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #3a4780;
+
+}
+#btn{
+    color: white;
+    background-color: #111b47;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 50px;
+}
+.backImg{
+    position: relative;
+    margin-left: 350px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    bottom: 900px;
+    margin-left: 50px;
+    gap: 15px;
+}
+.paragraph{
+    font-family: roboto;
+}
+.paragraph h1{
+    font-size: 50px;
+}
+.purchase{
+    color: white;
+    background-color: #111b47;
+    border: none;
+    padding: 5px 30px;
+    margin-right: 15px;
+}
+#learnmore{
+    color: #111b47;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    padding: 5px 30px;
+}
+.template{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-top: 0px;
+    bottom: 700px;
+    margin: 0px 50px;
+    gap: 15px;
+}
+/* .icons{
+    display: inline-block;
+} */
+.icons-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+}
+.icons p{
+    font-size: 10px;
+    color: black;
+    padding: 10px 10px;
+}
+.template2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-top: 0px;
+    bottom: 500px;
+    margin: 0px 50px;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+.price{
+    background-color: #f3f5ff;
+    text-align: center;
+    align-content: center;
+    height: 700px;
+}
+#price{
+    font-family: roboto;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #3a4780;
+}
+#solgan{
+    color: #111b47;
+}
+#promo{
+    color: #b2b5bd;
+}
+footer{
+    background-color: #e7ecff;
+    padding: 10px 50px;
+}
+.footer-body{
+    background-color: #e7ecff;
+}
+#copy{
+    color: #b2b5bd;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    color: #acb5db;
+    padding: 10px 20px;
+}
+
+.social-media a img{
+    width: 20px;
+    height: 20px;
+    padding: 20px 0px;
+}
